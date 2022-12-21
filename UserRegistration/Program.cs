@@ -17,6 +17,9 @@ namespace UserRegistration
             Console.WriteLine("Enter first Name");
             string first = Convert.ToString(Console.ReadLine());
             Console.WriteLine(re.validateFirstName(first));
+            Console.WriteLine("Enter Last Name");
+            string last = Convert.ToString(Console.ReadLine());
+            Console.WriteLine(re.validateLastName(last));
         }        
     }
 }
