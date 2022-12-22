@@ -14,7 +14,7 @@ namespace UserRegistration
         public static string FIRSTNAME = "^[A-Z]{1}[a-z]{2,}";
         public static string LASTNAME = "^[A-Z]{1}[a-z]{2,}";
         public static string EMAIL = "^[0-9A-Za-z]+([.][0-9A-Za-z]+)[@][0-9A-Za-z]+.[a-zA-Z]{2,3}(.[a-zA-Z]{2})?$";
-        public static string PHONE = "^[0-9]{2}[ ]{6-9}[1]{0-9}[9]$";
+        public static string PHONE = "^[+][0-9]{1,3}[ ][6-9]{1}[0-9]{9}$";
 
         public bool validateFirstName(string fname)
         {
