@@ -28,7 +28,7 @@ namespace UserRegistration
             string phone = Convert.ToString(Console.ReadLine());
 
             // Console.WriteLine("Enter Valid Password with minimum 8 characters ");
-            Console.WriteLine("Enter Valid Password with minimum 8 characters with min 1 Upper Case ");
+            Console.WriteLine("Enter Valid Password with minimum 8 characters with Atleast 1 Upper Case ");
             string pass1 = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine(re.validateFirstName(first));
@@ -36,7 +36,6 @@ namespace UserRegistration
             Console.WriteLine(re.validateEmail(mail));
             Console.WriteLine(re.validatePhone(phone));
             Console.WriteLine(re.validatePass1(pass1));
-
         }        
     }
 }
