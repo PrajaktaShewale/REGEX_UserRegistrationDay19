@@ -24,10 +24,14 @@ namespace UserRegistration
             Console.WriteLine("Enter Valid Email ");
             string mail = Convert.ToString(Console.ReadLine());
 
+            Console.WriteLine("Enter Valid Phone number ");
+            string phone = Convert.ToString(Console.ReadLine());
+
             Console.WriteLine(re.validateFirstName(first));
             Console.WriteLine(re.validateLastName(last));
             Console.WriteLine(re.validateEmail(mail));
-            
+            Console.WriteLine(re.validatePhone(phone));
+
         }        
     }
 }
