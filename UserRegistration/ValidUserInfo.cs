@@ -18,6 +18,7 @@ namespace UserRegistration
         public static string PASSWORD1 = "^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$";
         //Rule1-min 8 character "^[A-z]{8,}$"       
         //Rule2 - Rule1 + atleast1UpperCaseCharacter "^(?=.*?[A-Z]).{8,}$"
+        //Rule3-Rule1 +Rule2 +1 numeric = "^(?=.*?[A-Z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
         public bool validateFirstName(string fname)
         {
             return Regex.IsMatch(fname, FIRSTNAME);

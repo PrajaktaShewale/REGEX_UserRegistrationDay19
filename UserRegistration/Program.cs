@@ -29,7 +29,7 @@ namespace UserRegistration
 
             // Console.WriteLine("Enter Valid Password with minimum 8 characters ");
            // Console.WriteLine("Enter Valid Password with minimum 8 characters with Atleast 1 Upper Case ");
-           Console.WriteLine("Enter Password with min 8 element ,Atleast 1 UpperCase, 1 NumericValue");
+           Console.WriteLine("Enter Password with min 8 element ,Atleast 1 UpperCase, 1 NumericValue, 1 special character");
             string pass1 = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine(re.validateFirstName(first));
