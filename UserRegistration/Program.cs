@@ -27,10 +27,14 @@ namespace UserRegistration
             Console.WriteLine("Enter Valid Phone number ");
             string phone = Convert.ToString(Console.ReadLine());
 
+            Console.WriteLine("Enter Valid Password with minimum 8 characters ");
+            string pass1 = Convert.ToString(Console.ReadLine());
+
             Console.WriteLine(re.validateFirstName(first));
             Console.WriteLine(re.validateLastName(last));
             Console.WriteLine(re.validateEmail(mail));
             Console.WriteLine(re.validatePhone(phone));
+            Console.WriteLine(re.validatePass1(pass1));
 
         }        
     }
